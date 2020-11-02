@@ -1,0 +1,130 @@
+#title{
+    color: #fff;
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#bootstrap-overrides{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+#bootstrap-overrides2{
+    padding: 3% 15% 4%;
+}
+#bo-body{
+    font-family: 'Montserrat', sans-serif;   
+}
+#bo-navbar{
+    padding: 0 0 5% 0;
+}
+#bo-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#bo-navbar-item{
+    padding: 0 3%;
+    font-size: 1.2rem;
+}
+#bo-buttons{
+    margin: 5% 3% 5% 0;
+}
+.item-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#bo-features{
+    text-align: center;
+}
+#bo-features-listitem{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+#features-description{
+    text-align: center;
+    color: #8f8f8f;
+}
+.icons{
+    margin-bottom: 3%;
+    color: #ef8172
+}
+.icons:hover{
+    color: #ff4c68;
+
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+#testimonial-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 2.75rem;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;   
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+#carddeck{
+    padding: 5% 0;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+#pricing{
+    padding: 3% 15%;
+    text-align: center;
+}
+#pricing-table{
+    padding: 3% 2%;
+}
+@media (max-width:990px){
+    .item-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+}
+.testimonial-name{
+    color: #fff;
+}
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+.footer-icons{
+    margin: 2% 1%;
+}
